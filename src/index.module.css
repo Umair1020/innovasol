@@ -1,0 +1,139 @@
+.frameChild {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    background-color: var(--color-black);
+    width: 1600px;
+    height: 717px;
+    opacity: 0.8;
+  }
+  
+  .frameInner,
+  .frameItem {
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .frameItem {
+    top: 424px;
+    left: 1307px;
+    background: radial-gradient(50% 50%at 50% 50%, #35155d, #60158a);
+    filter: blur(29px);
+    width: 228px;
+    height: 228px;
+  }
+  
+  .frameInner {
+    top: 516px;
+    left: 732px;
+    background: radial-gradient(50% 50%at 50% 50%,
+        #8814ad,
+        rgba(136, 20, 173, 0));
+    filter: blur(11px);
+    width: 411px;
+    height: 411px;
+  }
+  
+  .groupChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 84px;
+    height: 38px;
+  }
+  
+  .aboutUs,
+  .home1,
+  .ourServices,
+  .ourTeam,
+  .technologies {
+    position: absolute;
+    top: 0;
+    left: 94px;
+    font-weight: 500;
+  }
+  
+  .aboutUs,
+  .home1,
+  .ourTeam,
+  .technologies {
+    left: 0;
+  }
+  
+  .aboutUs,
+  .ourTeam,
+  .technologies {
+    left: 249px;
+  }
+  
+  .ourTeam,
+  .technologies {
+    left: 370px;
+  }
+  
+  .technologies {
+    left: 498px;
+  }
+  
+  .ourServicesParent,
+  .rectangleGroup {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 614px;
+    height: 19px;
+  }
+  
+  .rectangleGroup {
+    top: 42px;
+    left: 557px;
+    width: 629px;
+    height: 38px;
+    color: var(--color-steelblue);
+  }
+  
+  .bitech1Icon {
+    position: absolute;
+    /* left: 30px; */
+    width: 100px;
+    height: 40px;
+    top: 15px;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    margin-top: 40px;
+  }
+  
+  @media (max-width:991px) {
+    .bitech1Icon {
+      width: 80px !important;
+      height: 36px !important;
+      top: 22px !important;
+      margin-left: 18px;
+    }
+  }
+  
+
+  

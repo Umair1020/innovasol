@@ -1,0 +1,260 @@
+.khaplu_modal {
+  width: 100%;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(280deg, rgb(215 197 255 / 68%) 0%, rgb(255 255 202 / 68%) 100%);
+  backdrop-filter: blur(15px);
+  transition: .4s linear;
+  z-index: 999999 !important;
+}
+
+.main_khaplu_popup {
+  width: 590px;
+  background-image: url(/public/bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 0;
+  display: grid;
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999999 !important;
+  transition: .4s linear;
+}
+
+.main_khaplu_popup .khaplu_popup {
+  position: relative;
+}
+
+.main_khaplu_popup .khaplu_secondary_btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_khaplu_popup .khaplu_secondary_btn img {
+  width: 15px;
+  opacity: 1;
+  transition: .4s linear;
+}
+
+.main_khaplu_popup .khaplu_secondary_btn img:hover {
+  transform: rotate(-90deg);
+}
+
+.khaplu_header {
+  margin-top: 9rem;
+  text-align: center;
+}
+
+.khaplu_header .khaplu_title {
+  font-size: 35px;
+  color: #000000;
+  font-weight: 600;
+  line-height: unset;
+}
+
+.khaplu_header .khaplu_para {
+  color: #000000;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.khaplu_body form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khaplu_body .khaplu_group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.khaplu_body .khaplu_group .khaplu_field {
+  width: 48%;
+  margin: 1px 0 10px;
+}
+
+.khaplu_body .khaplu_field {
+  margin: 10px 0 15px;
+  width: 100%;
+  position: relative;
+}
+
+.khaplu_body .khaplu_field img {
+  width: 14px;
+  margin-top: 4px;
+  margin-right: 5px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  object-fit: contain;
+}
+
+.khaplu_body .khaplu_field input,
+.khaplu_body .khaplu_field textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: #000000;
+  border: 1px solid #000000;
+  font-size: 14px;
+  border-radius: 25px;
+  outline: none;
+  padding: 10px 0 10px 6px;
+  transition: .4s linear;
+}
+
+.khaplu_body .khaplu_field textarea {
+  height: 60px;
+  border-radius: 18px;
+}
+
+.khaplu_body .khaplu_field input::placeholder,
+.khaplu_body .khaplu_field textarea::placeholder {
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.khaplu_body .khaplu_field input:focus,
+.khaplu_body .khaplu_field textarea:focus {
+  border: 1px solid #000000;
+  background: transparent;
+  transition: .4s linear;
+  box-shadow: inset 2px 2px 2px 0px rgb(00 00 00 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+}
+
+.khaplu_body .khaplu_field .khaplu_submit {
+  width: 100%;
+  font-size: 14px;
+  color: rgb(76 76 76);
+  padding: 10px 35px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.khaplu_body .khaplu_field .khaplu_submit {
+  background: linear-gradient(154deg, rgb(127, 124, 132) 0%, rgb(237, 74, 74) 100%);
+  border: none;
+  color: #000;
+}
+
+.khaplu_body .khaplu_field .khaplu_submit:before {
+  height: 0%;
+  width: 2px;
+}
+
+.khaplu_body .khaplu_field .khaplu_submit:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+@media screen and (max-width: 769px) {
+  .main_khaplu_popup {
+    width: 550px;
+  }
+
+  .khaplu_header .khaplu_title {
+    font-size: 25px;
+  }
+
+  .khaplu_header .khaplu_para {
+    font-size: 12px;
+    margin: 10px 0 20px;
+  }
+
+  .khaplu_body form {
+    width: 80%;
+  }
+
+  .khaplu_body .khaplu_field {
+    margin: 10px 0 10px;
+  }
+
+  .khaplu_body .khaplu_group .khaplu_field {
+    margin: 0;
+  }
+
+  .khaplu_body .khaplu_field img {
+    width: 12px;
+    top: 9px;
+    left: 10px;
+  }
+
+  .khaplu_body .khaplu_field input,
+  .khaplu_body .khaplu_field textarea {
+    padding: 10px 0 10px 25px;
+    font-size: 12px;
+  }
+
+  .khaplu_body .khaplu_field textarea {
+    height: 60px;
+    border-radius: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main_khaplu_popup {
+    width: 300px;
+    padding: 10px 0;
+    background-size: cover;
+  }
+
+  .main_khaplu_popup .khaplu_secondary_btn {
+    top: 0px;
+    right: 0;
+  }
+
+  .khaplu_header .khaplu_para span {
+    display: block;
+  }
+
+  .khaplu_header .khaplu_para {
+    margin: 10px 0;
+  }
+
+  .khaplu_body .khaplu_group {
+    flex-direction: column;
+  }
+
+  .khaplu_body .khaplu_group .khaplu_field {
+    width: 100%;
+    margin: 3px 0 5px;
+  }
+
+  .khaplu_body .khaplu_group .khaplu_field:nth-child(2) {
+    margin-bottom: 0;
+  }
+}

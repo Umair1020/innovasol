@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* 
+.filters a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+} */
+
+/* .filters a:hover,
+.filters a:focus,
+.filters a:active {
+    text-decoration: none;
+}
+
+.filters a:hover:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+}
+
+.filters a.active {
+    color: #000;
+}
+
+.filters a.active:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+}
+
+.item {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.item .item-wrap {
+    display: block;
+    position: relative;
+    overflow: hidden;
+} */
+/* 
+.item .item-wrap::after {
+    z-index: 2;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+}
+
+.item .item-wrap img {
+    transition: 0.3s transform ease;
+    transform: scale(1);
+} */
+
+.item .item-wrap>.work-info {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Set text color */
+    padding: 10px;
+
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* .item .item-wrap>.work-info h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.item .item-wrap>.work-info span {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+} */
+
+/* .item .item-wrap:hover {
+    text-decoration: none;
+}
+
+.item .item-wrap:hover img {
+    transform: scale(1.05);
+}
+
+.item .item-wrap:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.item .item-wrap:hover .work-info {
+    margin-top: 0px;
+    opacity: 1;
+    visibility: visible;
+} */
+
+.portimg {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 88vh;
+    background-size: cover;
+}
+
+.portfolioh1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
+@media(max-width: 991px) {
+    .portimg {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 65vh !important;
+        background-size: cover;
+    }
+
+
+    .portfoliopara {
+        margin-top: 6em !important;
+        margin-left: 20px;
+    }
+
+    .portfolioh1 {
+        font-size: 55px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-left: 20px;
+
+    }
+
+    .logoimg {
+        max-width: 100%;
+    }
+
+    .slide-wraps {
+        position: relative;
+        display: table;
+        width: 100%;
+        height: 75vh !important;
+    }
+
+    .porth1 {
+        font-size: 27px !important;
+        font-weight: 600;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .portmain {
+        margin-top: 10vh;
+        margin-left: 25px;
+        font-size: 30px !important;
+        font-weight: bold;
+    }
+
+    .box {
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+}
+
+
+.slide-wraps {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100vh;
+}
+
+/* portfolio logo */
+
+.logoimg {
+    max-width: 88%;
+    height: fit-content;
+}
+
+/* 
+#portfolio socialmedia */
+.socialimg {
+    max-width: 70%;
+    margin: auto;
+    display: block;
+}
+
+@media(max-width:991px) {
+    .socialimg {
+        max-width: 100%;
+        margin: auto;
+        display: block;
+
+    }
+}
+
+/* }
+#portfolio web */
+#portfolio .portfolio-item {
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+#portfolio .portfolio-item {
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+  }
+  
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 1.25rem;
+    color: white;
+  }
+  
+  #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+    opacity: 1;
+  }
+  
+  #portfolio .portfolio-item .portfolio-caption {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 1.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  
+  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  .portfolio-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+  }
+  
+  .portfolio-modal .modal-content {
+    text-align: center;
+  }
+  
+  @media(max-width:991px) {
+    .portfolio-modal .modal-content {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      text-align: center;
+    }
+  
+    .mains {
+      margin-top: 25vh;
+      text-align: center;
+      font-size: 6rem;
+      color: #fff;
+    }
+  
+    .webh2 {
+      font-size: 25px !important;
+      margin-left: 40px !important;
+      color: #fff !important;
+    }
+  
+    .left {
+      font-size: 30px !important;
+      left: 20px !important;
+      top: 10px !important;
+    }
+  
+    .close-modal {
+      font-size: 30px !important;
+      right: 0 !important;
+      top: 0 !important;
+    }
+  
+    .back {
+      margin-left: 0px !important;
+      color: #fff;
+    }
+  }
+  
+  .back {
+    margin-left: 60px;
+    color: #fff !important;
+  }
+  
+  
+  
+  .tabs.current {
+    display: block !important;
+  }
+  
+  .portfoliowrp .txtwrp {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+  
+  .portfoliowrp .port-box ul {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+  
+  li.hk_web_height.lazy.tabs-web-dsgn:hover {
+    background-position: 100%;
+    transition: 3s !important;
+    transform: none;
+  }
+  
+  
+  .portfoliowrp .port-box ul li {
+    display: inline-block;
+    width: 100%;
+    transition: 1s cubic-bezier(.51, .92, .27, .96) !important;
+    box-shadow: -1px -2px 15px -3px rgb(0 0 0/16%);
+    border-radius: 20px;
+    margin: 0 4px;
+    
+    height: 200px;
+    overflow: hidden;
+    background-size: cover;
+  }
+  
+  .portfoliowrp {
+    padding: 30px 0;
+  }
+  
+  .portfoliowrp .txtwrp {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 30px
+  }
+  
+  .portfoliowrp .navwrp {
+    display: block;
+    text-align: center;
+    padding: 0 0 50px
+  }
+  
+  .portfoliowrp .navwrp ul {
+    margin: 0;
+    display: block;
+    text-align: center
+  }
+  
+  .portfoliowrp .navwrp ul li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 15px;
+    color: #f6806b;
+    font-size: 15px;
+    border-radius: 7px;
+    font-weight: 500;
+    border: 1px solid;
+    cursor: pointer;
+    transition: 1s cubic-bezier(.51, .92, .27, .96) !important
+  }
+  
+  .portfoliowrp .navwrp ul li.current {
+    background: linear-gradient(to right, rgb(212 69 38) 0%, #cc156e 100%);
+    color: #fff;
+    border: unset
+  }
+  
+  .portfoliowrp .port-box {}
+  
+  .portfoliowrp .port-box ul {
+    margin: 0;
+    display: block;
+    text-align: center
+  }
+  
+  .portfoliowrp .port-box ul li {
+    display: inline-block;
+    width: 100%;
+    transition: 1s cubic-bezier(.51, .92, .27, .96) !important;
+    box-shadow: -1px -2px 15px -3px rgb(0 0 0/16%);
+    border-radius: 20px;
+    margin: 0 4px;
+    height: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-size: cover
+  }
+  
+  @media (max-width: 991px) {
+    .portfoliowrp .port-box ul li {
+      display: inline-block;
+      width: 100%;
+      transition: 1s cubic-bezier(.51, .92, .27, .96) !important;
+      box-shadow: -1px -2px 15px -3px rgb(0 0 0/16%);
+      border-radius: 20px;
+      margin: 0 4px;
+      height: 400px;
+      height: 400px;
+      overflow: hidden;
+      background-size: cover
+    }
+  }
+  
+  .portfoliowrp .port-box ul li:hover {
+    transform: scale(1.1)
+  }
+  
+  .portfoliowrp .port-box ul li img {
+    width: 340px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 15px
+  }
+  
+  .portfoliowrp .btnwrp {
+    display: block;
+    text-align: center;
+    padding: 50px 0 0
+  }
+  
+  .description {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  .port-box:hover:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    height: 1px;
+    background-color: #000;
+  }
+  
+  /* .port-box:hover {
+    transform: scale(1.1)
+  } */
+  
+  .port-box:hover {
+    transform: scale(1.05);
+    transition: 3s !important;
+    transform: none;
+  }
+  
+  .leader {
+    margin-top: 360vh;
+  }
+  .portfolio-item h2{
+    font-family: Montserrat;
+  }
+
+  
