@@ -48,7 +48,7 @@ const Footer = () => {
         //     return;
         // }
         try {
-            const response = await fetch("http://api.innovasolutions.pk/send-email", {
+            const response = await fetch("https://api.innovasolutions.pk/send-email", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
