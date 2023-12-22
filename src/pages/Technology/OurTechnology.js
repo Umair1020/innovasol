@@ -42,7 +42,7 @@ const OurTechnology = () => {
                     <div className='techmain'>
                         <br />
                         <h2 className='text-light text-center'>Design Technologies</h2>
-                        <p className='text-light text-center'>Lorem Ipsum is simply dummy text of and typesetting</p>
+                        <p className='text-light text-center'></p>
                         <div className="technologies_card_main_div" bis_skin_checked="1">
                             <div className=" technologies_card_inner_div" bis_skin_checked="1">
                                 <img src={des1} alt="Image 1" />
@@ -65,7 +65,7 @@ const OurTechnology = () => {
                     <div>
                         <br />
                         <h2 className='text-light text-center'>Database Technologies</h2>
-                        <p className='text-light text-center'>Lorem Ipsum is simply dummy text of and typesetting</p>
+                        <p className='text-light text-center'></p>
                         <div className="technologies_card_main_div" bis_skin_checked="1">
                             <div className="technologies_card_inner_div" bis_skin_checked="1">
                                 <img src={data1} alt="Image 3" />
@@ -88,7 +88,7 @@ const OurTechnology = () => {
                     <div>
                         <br />
                         <h2 className='text-light text-center'>Cloud Technologies</h2>
-                        <p className='text-light text-center'>Lorem Ipsum is simply dummy text of and typesetting</p>
+                        <p className='text-light text-center'></p>
                         <div className="technologies_card_main_div" bis_skin_checked="1">
                             <div className="technologies_card_inner_div" bis_skin_checked="1">
                                 <img src={cloud1} alt="Image 5" />
@@ -105,7 +105,7 @@ const OurTechnology = () => {
                     <div>
                         <br />
                         <h2 className='text-light text-center'>App Technologies </h2>
-                        <p className='text-light text-center'>Lorem Ipsum is simply dummy text of and typesetting</p>
+                        <p className='text-light text-center'></p>
                         <div className="technologies_card_main_div" bis_skin_checked="1">
                             <div className="technologies_card_inner_div" bis_skin_checked="1">
                                 <img src={app1} alt="Image 7" />
@@ -125,7 +125,7 @@ const OurTechnology = () => {
                     <div>
                         <br />
                         <h2 className='text-light text-center'>Web Technologies </h2>
-                        <p className='text-light text-center'>Lorem Ipsum is simply dummy text of and typesetting</p>
+                        <p className='text-light text-center'></p>
                         <div className="technologies_card_main_div" bis_skin_checked="1">
                             <div className="technologies_card_inner_div1" bis_skin_checked="1">
                                 <img src={img1} alt="Image 9" />

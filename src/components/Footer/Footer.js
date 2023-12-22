@@ -182,23 +182,7 @@ const Footer = () => {
                                     </div>
 
                                 </div>
-                                <div class="col-12 col-lg-4 col-md-5 col-sm-12 footer-col-4">
-                                    <div class="widget widget_gallery gallery-grid-4">
-                                        <h5 class="footer-title"> <br /><br />Our Gallery</h5>
-                                        <ul class="magnific-image">
-
-                                            <li><Link to="/portfolio" class="magnific-anchor"><img className="img3" src="https://images.unsplash.com/photo-1477239439998-839196943351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=414&q=80" alt="" /></Link></li>
-                                            <li><Link to="/portfolio" class="magnific-anchor"><img className="img3" src="https://images.unsplash.com/photo-1477239439998-839196943351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=414&q=80" alt="" /></Link></li>
-                                            <li><Link to="/portfolio" class="magnific-anchor"><img className="img3" src="https://images.unsplash.com/photo-1477239439998-839196943351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=414&q=80" alt="" /></Link></li>
-                                            <li><Link to="/portfolio" class="magnific-anchor"><img className="img3" src="https://images.unsplash.com/photo-1477239439998-839196943351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=414&q=80" alt="" /></Link></li>
-                                            <li><Link to="/portfolio" class="magnific-anchor"><img className="img3" src="https://images.unsplash.com/photo-1477239439998-839196943351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=414&q=80" alt="" /></Link></li>
-                                            <li><Link to="/portfolio" class="magnific-anchor"><img className="img3" src="https://images.unsplash.com/photo-1477239439998-839196943351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=414&q=80" alt="" /></Link></li>
-                                            <li><Link to="/portfolio" class="magnific-anchor"><img className="img3" src="https://images.unsplash.com/photo-1477239439998-839196943351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=414&q=80" alt="" /></Link></li>
-                                            <li><Link to="/portfolio" class="magnific-anchor"><img className="img3" src="https://images.unsplash.com/photo-1477239439998-839196943351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=414&q=80" alt="" /></Link></li>
-                                            <li><Link to="/portfolio" class="magnific-anchor"><img className="img3" src="https://images.unsplash.com/photo-1477239439998-839196943351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=414&q=80" alt="" /></Link></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

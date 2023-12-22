@@ -61,9 +61,9 @@ const Portfolio = () => {
                             <h1 className='portmain text-center mx-auto ' style={{ fontWeight: "700" }}>
                                 Portfolio by Category
                             </h1>
-                            <p className='mx-auto text-center w-75' style={{ fontWeight: "lighter", color: "" }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                <br /> Lorem Ipsum has been the industry's standard dummy
-                                text ever since the 1500s, <br /> <br /> </p>
+                            <p className='mx-auto text-center w-75' style={{ fontWeight: "lighter", color: "" }}>
+                                 Crafting innovative solutions to drive meaningful impact and<br />
+                                elevate experiences in a dynamic world <br /> <br /> </p>
 
                             <div id="portfolio-grid" className="row no-gutter" style={{ marginLeft: "30px" }} >
                                 <div className="item  col-sm-6 col-md-4 col-lg-4 mb-4 ">
